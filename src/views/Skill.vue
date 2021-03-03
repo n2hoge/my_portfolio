@@ -1,0 +1,22 @@
+<template function>
+  <div id="skill">
+    <h2 class="text-monospace page-head">Skill</h2>
+    <div class="info">N N のおすすめスキルセットです！</div>
+    <Chart/>
+    <Footer/>
+  </div>
+</template>
+
+<script>
+// @ is an alias to /src
+import Footer from '@/components/Footer.vue'
+import Chart from '@/components/Chart.vue'
+
+export default {
+  name: 'Skill',
+  components: {
+    Footer,
+    Chart
+  }
+}
+</script>

@@ -1,0 +1,37 @@
+$headings-line-height: 1.5;
+$line-height-base: 1.8;
+
+* {
+  font-family: "游ゴシック";
+}
+
+[v-cloak] {
+  display: none;
+}
+
+h2 {
+  text-align: center;
+}
+
+.page-head {
+  margin-top: 80px;
+}
+
+.info {
+  text-align: center;
+}
+
+.fade {
+  animation: fadeIn 2s ease 1s forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-vue/src";

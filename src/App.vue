@@ -1,28 +1,39 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app v-cloak">
+    <!-- route header -->
+    <Header/>
+    <!-- route top page containts -->
+    <div>
+      <router-link to="/"></router-link>
+    </div>
+    <!-- page transition animation -->
+    <transition appear mode="out-in">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
+<style scoped>
+.v-enter {
+  transform: translate(0, 30px);
+  opacity: 0;
+}
+.v-enter-active {
+  transition: all .7s .6s ease;
+}
+.v-enter-to {
+  opacity: 1;
+}
+
+</style>
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from '@/components/Header.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
