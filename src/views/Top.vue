@@ -24,7 +24,7 @@
 <style scoped>
 .typing-text {
     position: relative;
-    max-width: 13.5rem;
+    max-width: 14.5rem;
     border-right: 2px solid rgba(0,0,0,.75);
     font-size: 2rem;
     line-height: 2.8rem;
@@ -40,7 +40,7 @@
 /*typewriter animation*/
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 13.5rem;}
+  to{width: 14.5rem;}
 }
 /*cursol animation*/
 @keyframes blinkTextCursor{

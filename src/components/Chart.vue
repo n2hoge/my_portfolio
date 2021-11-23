@@ -86,7 +86,7 @@
   max-width: 65%;
 }
 .bar4::after {
-  max-width: 20%;
+  max-width: 65%;
 }
 
 // frameworks
@@ -94,7 +94,7 @@
   max-width: 50%;
 }
 .bar12::after {
-  max-width: 50%;
+  max-width: 30%;
 }
 
 // others
@@ -102,13 +102,13 @@
   max-width: 50%;
 }
 .bar22::after{
-  max-width: 50%;
+  max-width: 35%;
 }
 .bar23::after {
   max-width: 35%;
 }
 .bar24::after {
-  max-width: 50%;
+  max-width: 80%;
 }
 .bar25::after {
   max-width: 80%;
@@ -135,11 +135,11 @@ export default {
         ],
         fwks: [
           {skill: 'Vue', number:'bar11' },
-          {skill: 'Bootstrap', number:'bar12'}
+          {skill: 'React', number:'bar12'}
         ],
         others: [
           {skill: 'GitHub', number:'bar21' },
-          {skill: 'webpack', number:'bar22' },
+          {skill: 'Unity', number:'bar22' },
           {skill: 'AdobeXD', number:'bar23' },
           {skill: 'WordPress', number:'bar24'},
           {skill: 'Google Analytics', number:'bar25'},

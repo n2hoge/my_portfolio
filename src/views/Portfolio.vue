@@ -59,15 +59,15 @@ export default {
     return {
       products: [
         { header: '今ご覧のポートフォリオサイト',
-            'sub-title':'制作環境：Vue.js(Vue/CLI)',
+            'sub-title':'制作環境：Vue.js',
             src: require('@/assets/myportfolio.jpg'),
             text:
-              '実務で使うためにVue.jsを学んだ際、環境構築とテスト開発を兼ねて2週間ほどで制作。Vue Routerを用いてSPA形式にしています。デザインはBootstrapをベースにSCSSでカスタム。画面遷移の心地よさを特に意識して調整しました。\n\n【FW】\nVue2.0/BootstrapVue\n【利用スキル補足】\nNode.js/npm/GitHub',
+              'フロントエンド技術の幅を広げるために、Vue.jsの環境構築とテスト開発を兼ねて2週間ほどで制作。Vue Routerを用いてSPA形式にしています。デザインはBootstrapをベースにSCSSでカスタム。画面遷移の心地よさを特に意識して調整しました。\n\n【FW】\nVue2.0/BootstrapVue\n【利用スキル補足】\nNode.js/npm/GitHub',
             href: '/',
             link: '→ Top'
         },
         { header: 'レガシー＋スクラッチなサイト',
-            'sub-title':'制作環境：HTML5/CSS3(SCSS)/JavaScript(ES6)',
+            'sub-title':'制作環境：HTML/SCSS/JavaScript',
             src: require('@/assets/cytal2.jpg'),
             text:
               'フロントエンド知識の基礎整理のために3週間ほどで制作。デザインは既存の他サイトを参考にしています。あえてCMSやJSFWを使わずに、HTML,SCSS,JSとコンパクトなライブラリのみでコーディング。保守性、再利用性の高い構成を意識しました。\n\n【ライブラリ】\nSwiper/TweenMax/Pace.js\n【利用スキル補足】\nwebpack',
