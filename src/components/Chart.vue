@@ -6,7 +6,7 @@
             <wrapper v-for="( code, i ) in codes" :key="i" class="graph">
               <div class="text-monospace bar" :class="code.number" >{{ code.skill }}</div>
             </wrapper>
-            <h3 class="chart-category text-monospace">Framework</h3>
+            <h3 class="chart-category text-monospace">Framework/Library</h3>
             <wrapper v-for="( fwk, i ) in fwks" :key="i" class="graph">
               <div class="text-monospace bar" :class="fwk.number" >{{ fwk.skill }}</div>
             </wrapper>
@@ -102,16 +102,16 @@
   max-width: 50%;
 }
 .bar22::after{
-  max-width: 35%;
+  max-width: 50%;
 }
 .bar23::after {
   max-width: 35%;
 }
 .bar24::after {
-  max-width: 80%;
+  max-width: 35%;
 }
 .bar25::after {
-  max-width: 80%;
+  max-width: 60%;
 }
 .bar26::after {
   max-width: 80%;
@@ -139,11 +139,11 @@ export default {
         ],
         others: [
           {skill: 'GitHub', number:'bar21' },
-          {skill: 'Unity', number:'bar22' },
-          {skill: 'AdobeXD', number:'bar23' },
-          {skill: 'WordPress', number:'bar24'},
-          {skill: 'Google Analytics', number:'bar25'},
-          {skill: 'SEO Countermeasures', number:'bar26'},
+          {skill: 'Docker', number:'bar22' },
+          {skill: 'Unity', number:'bar23' },
+          {skill: 'AdobeXD', number:'bar24'},
+          {skill: 'WordPress', number:'bar25'},
+          {skill: 'Google Analytics', number:'bar26'},
           {skill: 'Content Writing', number:'bar27'}
         ]
       }
